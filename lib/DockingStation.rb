@@ -6,6 +6,6 @@ end
 
 class Bike
   def working?
-
+    DockingStation.release_bike
   end
 end
